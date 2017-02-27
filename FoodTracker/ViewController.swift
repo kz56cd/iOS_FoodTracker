@@ -39,8 +39,6 @@ UIImagePickerControllerDelegate, UINavigationControllerDelegate {
         // Hide the keyboard.
         nameTextField.resignFirstResponder()
         
-        print("as")
-        
         let imagePickerController = UIImagePickerController()
         imagePickerController.sourceType = .photoLibrary
         imagePickerController.delegate = self
